@@ -1,0 +1,112 @@
+{
+  "Regressão Logística": {
+    "val_accuracy": 0.9647058823529412,
+    "val_recall": 0.90625,
+    "val_f1": 0.9508196721311475,
+    "val_roc_auc": 0.995872641509434,
+    "test_accuracy": 0.9883720930232558,
+    "test_precision": 0.9696969696969697,
+    "test_recall": 1.0,
+    "test_f1": 0.9846153846153847,
+    "test_roc_auc": 0.9988425925925927,
+    "cv_recall_mean": 0.9593103448275861,
+    "confusion_matrix_test": [
+      [
+        53,
+        1
+      ],
+      [
+        0,
+        32
+      ]
+    ]
+  },
+  "Random Forest": {
+    "val_accuracy": 0.9647058823529412,
+    "val_recall": 0.90625,
+    "val_f1": 0.9508196721311475,
+    "val_roc_auc": 0.995872641509434,
+    "test_accuracy": 0.9883720930232558,
+    "test_precision": 1.0,
+    "test_recall": 0.96875,
+    "test_f1": 0.9841269841269841,
+    "test_roc_auc": 1.0,
+    "cv_recall_mean": 0.9386206896551723,
+    "confusion_matrix_test": [
+      [
+        54,
+        0
+      ],
+      [
+        1,
+        31
+      ]
+    ]
+  },
+  "Gradient Boosting": {
+    "val_accuracy": 0.9529411764705882,
+    "val_recall": 0.875,
+    "val_f1": 0.9333333333333333,
+    "val_roc_auc": 0.9976415094339622,
+    "test_accuracy": 0.9651162790697675,
+    "test_precision": 0.967741935483871,
+    "test_recall": 0.9375,
+    "test_f1": 0.9523809523809523,
+    "test_roc_auc": 0.9988425925925927,
+    "cv_recall_mean": 0.9045977011494252,
+    "confusion_matrix_test": [
+      [
+        53,
+        1
+      ],
+      [
+        2,
+        30
+      ]
+    ]
+  },
+  "KNN (K-Vizinhos)": {
+    "val_accuracy": 0.9647058823529412,
+    "val_recall": 0.90625,
+    "val_f1": 0.9508196721311475,
+    "val_roc_auc": 0.9790683962264152,
+    "test_accuracy": 0.9651162790697675,
+    "test_precision": 1.0,
+    "test_recall": 0.90625,
+    "test_f1": 0.9508196721311475,
+    "test_roc_auc": 0.9994212962962963,
+    "cv_recall_mean": 0.9250574712643678,
+    "confusion_matrix_test": [
+      [
+        54,
+        0
+      ],
+      [
+        3,
+        29
+      ]
+    ]
+  },
+  "Árvore de Decisão": {
+    "val_accuracy": 0.8941176470588236,
+    "val_recall": 0.8125,
+    "val_f1": 0.8524590163934426,
+    "val_roc_auc": 0.8838443396226416,
+    "test_accuracy": 0.9302325581395349,
+    "test_precision": 0.90625,
+    "test_recall": 0.90625,
+    "test_f1": 0.90625,
+    "test_roc_auc": 0.9126157407407407,
+    "cv_recall_mean": 0.9183908045977013,
+    "confusion_matrix_test": [
+      [
+        51,
+        3
+      ],
+      [
+        3,
+        29
+      ]
+    ]
+  }
+}
